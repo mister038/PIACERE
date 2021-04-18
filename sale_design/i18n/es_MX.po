@@ -1,0 +1,106 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_design
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 14.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-18 16:42+0000\n"
+"PO-Revision-Date: 2021-04-18 16:42+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sale_design
+#: model:ir.model.fields,field_description:sale_design.field_sale_design__create_uid
+msgid "Created by"
+msgstr "Creado Por"
+
+#. module: sale_design
+#: model:ir.model.fields,field_description:sale_design.field_sale_design__create_date
+msgid "Created on"
+msgstr "Creado en"
+
+#. module: sale_design
+#: model:ir.model.fields,field_description:sale_design.field_sale_design__design
+#: model:ir.model.fields,field_description:sale_design.field_sale_order__design
+#: model_terms:ir.ui.view,arch_db:sale_design.inherit_sale_order_view_design
+msgid "Design"
+msgstr "Diseño"
+
+#. module: sale_design
+#: model:ir.model.fields,field_description:sale_design.field_sale_design__design_filename
+msgid "Design Filename"
+msgstr "Archivo de Diseño"
+
+#. module: sale_design
+#: model:ir.model.fields,field_description:sale_design.field_sale_design__name
+msgid "Design Name"
+msgstr "Nombre del Diseño"
+
+#. module: sale_design
+#: model_terms:ir.ui.view,arch_db:sale_design.inherit_sale_order_view_design
+msgid "Disenos"
+msgstr "Diseño"
+
+#. module: sale_design
+#: model:ir.model.fields,field_description:sale_design.field_sale_design__display_name
+#: model:ir.model.fields,field_description:sale_design.field_sale_order__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: sale_design
+#: model:ir.model.fields,field_description:sale_design.field_sale_design__id
+#: model:ir.model.fields,field_description:sale_design.field_sale_order__id
+msgid "ID"
+msgstr ""
+
+#. module: sale_design
+#: model:ir.model.fields,help:sale_design.field_sale_design__design
+msgid "It is upload design."
+msgstr "Este modelo es para subir diseños"
+
+#. module: sale_design
+#: model:ir.model.fields,field_description:sale_design.field_sale_design____last_update
+#: model:ir.model.fields,field_description:sale_design.field_sale_order____last_update
+msgid "Last Modified on"
+msgstr "Última modificación el"
+
+#. module: sale_design
+#: model:ir.model.fields,field_description:sale_design.field_sale_design__write_uid
+msgid "Last Updated by"
+msgstr "Ultima modificación por"
+
+#. module: sale_design
+#: model:ir.model.fields,field_description:sale_design.field_sale_design__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización en"
+
+#. module: sale_design
+#: model_terms:ir.ui.view,arch_db:sale_design.inherit_sale_order_view_design
+msgid "Name..."
+msgstr "Nombre"
+
+#. module: sale_design
+#: model:ir.model,name:sale_design.model_sale_design
+msgid "Sale Design"
+msgstr "Diseño de Venta"
+
+#. module: sale_design
+#: model:ir.model,name:sale_design.model_sale_order
+msgid "Sales Order"
+msgstr "Pedido de venta"
+
+#. module: sale_design
+#: model_terms:ir.ui.view,arch_db:sale_design.inherit_sale_order_view_design
+msgid "Sales Order Lines"
+msgstr "Lineas de Pedido de Venta"
+
+#. module: sale_design
+#: model:ir.model.fields,field_description:sale_design.field_sale_design__date_write
+msgid "Write date"
+msgstr "Ultima actualización"
