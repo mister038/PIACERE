@@ -3,7 +3,9 @@
 import json
 import mimetypes
 
-from werkzeug import exceptions, url_decode
+from werkzeug.urls import url_encode
+from odoo import exceptions, _
+
 
 from odoo.http import request, route
 from odoo.tools import html_escape
