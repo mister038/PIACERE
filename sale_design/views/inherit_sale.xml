@@ -1,0 +1,48 @@
+<odoo>
+	<data>
+		<record id="inherit_sale_order_view_design" model="ir.ui.view">
+			<field name="name">inherit.sale.order.view.design</field>
+			<field name="model">sale.order</field>
+			<field name="inherit_id" ref="sale.view_order_form" />
+			<field name="arch" type="xml">
+				<!-- margins fields -->
+				<xpath expr="//notebook/page[@name='customer_signature']"
+					position="after">
+					<page string="Design" name="sale_design">
+						<field name="design" mode="tree,kanban"
+							attrs="{'readonly': [('state', 'in', ('done','cancel'))]}">
+							<form>
+								<sheet string="Disenos" name="studio_sheet_302307">
+									<div class="oe_title">
+										<h1>
+											<field name="name" required="1" placeholder="Name..." />
+										</h1>
+									</div>
+									<group>
+										<group>
+											<field name="design" filename="design_filename"/>
+											<field name="design_filename" invisible="1"/>
+											
+										</group>
+									</group>
+								</sheet>
+
+
+							</form>
+							<tree string="Sales Order Lines" editable="bottom">
+
+								<field name="date_write" />
+								<field name="name" />
+								<field name="design" optional="show"/> 
+								<field name="design_filename" optional="show"/>
+								
+							</tree>
+
+						</field>
+
+					</page>
+				</xpath>
+			</field>
+		</record>
+	</data>
+</odoo>
