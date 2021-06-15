@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Unoobi | Piacere personalization",
+    'name': "SOLOODOO| Piacere personalization",
     'summary': """
         Piacere Personalization.
     """,
@@ -8,7 +8,7 @@
         Piacere Personalization
     """,
     'sequence': 50,
-    'author': "UNOOBI",
+    'author': "SOLOODOO",
     'category': 'Contact',
     'version': '1.0',
     'depends': ['sale_management', 'sale'],
