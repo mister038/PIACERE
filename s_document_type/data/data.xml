@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record model='l10n_latam.document.type' id='document_type_morgan'>
+            <field name='name'>FACTURA TRAINING</field>
+            <field name='doc_code_prefix'>FT</field>
+            <field name='country_id' ref='base.ar'/>
+            <field name='internal_type'></field>
+        </record>
+    </data>
+</odoo>
